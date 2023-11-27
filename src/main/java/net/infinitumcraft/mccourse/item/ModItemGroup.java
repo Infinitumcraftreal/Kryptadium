@@ -15,7 +15,8 @@ public class ModItemGroup {
     public static final ItemGroup PINK_GARNET_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MCCourseMod.MOD_ID, "pink_garnet_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.pink_garnet_group"))
-                    .icon(() -> new ItemStack(ModItems.PINK_GARNET)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.KRYPTONITE);
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
 
@@ -26,6 +27,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
+
+                        entries.add(ModItems.METAL_DETECTOR);
 
                 }).build());
 

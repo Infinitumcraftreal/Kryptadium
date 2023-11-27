@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.infinitumcraft.mccourse.MCCourseMod;
 import net.infinitumcraft.mccourse.block.ModBlocks;
+import net.infinitumcraft.mccourse.item.custom.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -17,6 +18,12 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
+            new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+
+    public static final Item KRYPTONITE = registerItem("kryptonite",
             new Item(new FabricItemSettings()));
 
 
