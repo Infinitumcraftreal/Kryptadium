@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.infinitumcraft.mccourse.block.ModBlocks;
 import net.infinitumcraft.mccourse.item.ModItemGroup;
 import net.infinitumcraft.mccourse.item.ModItems;
+import net.infinitumcraft.mccourse.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,8 @@ public class MCCourseMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 
 	}
 }
