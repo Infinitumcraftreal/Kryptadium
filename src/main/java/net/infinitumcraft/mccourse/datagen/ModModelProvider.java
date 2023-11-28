@@ -25,6 +25,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_BLOCK);
+
 
     }
 
@@ -38,5 +41,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.KRYPTONITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KRYPTONITE_APPLE, Models.GENERATED);
     }
 }

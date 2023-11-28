@@ -1,5 +1,5 @@
-// 1.20.1	2023-11-28T20:22:55.5875457	MC Course Mod/Tags for minecraft:block
-88a477c94bf794618f586a66f25f2a741a85a42c data\minecraft\tags\blocks\needs_diamond_tool.json
-78b821323f95d2a39da78c8e495f9ea41951b6f0 data\mccourse\tags\blocks\metal_detector_detectable_blocks.json
+// 1.20.1	2023-11-28T20:56:20.2965434	MC Course Mod/Tags for minecraft:block
+ec3d999ee447665fb27657f029709724f48cd92c data\minecraft\tags\blocks\needs_diamond_tool.json
 cac54469142d24a8401f95e0fb8d26528f2f0f9d data\minecraft\tags\blocks\needs_iron_tool.json
-83f8c11956637ba673311e767931a1b019abe0ac data\minecraft\tags\blocks\mineable\pickaxe.json
+a1a9f51397b099b971ee00633ff48a2488e2abdd data\mccourse\tags\blocks\metal_detector_detectable_blocks.json
+f3b2e74818927a9cc63081eca48feaacc3a651fe data\minecraft\tags\blocks\mineable\pickaxe.json

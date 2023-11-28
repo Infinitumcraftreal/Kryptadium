@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:golden_apple"
+    },
+    "S": {
+      "item": "mccourse:kryptonite"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SPS",
+    "SSS"
+  ],
+  "result": {
+    "item": "mccourse:raw_pink_garnet"
+  },
+  "show_notification": true
+}

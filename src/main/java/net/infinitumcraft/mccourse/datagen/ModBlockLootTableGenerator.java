@@ -15,10 +15,12 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_GARNET_BLOCK);
         addDrop(ModBlocks.RAW_PINK_GARNET_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
+        addDrop(ModBlocks.KRYPTONITE_BLOCK);
 
         addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
         addDrop(ModBlocks.DEEPSLATE_PINK_GARNET_ORE, oreDrops(ModBlocks.DEEPSLATE_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
         addDrop(ModBlocks.END_STONE_PINK_GARNET_ORE, oreDrops(ModBlocks.END_STONE_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
         addDrop(ModBlocks.NETHER_PINK_GARNET_ORE, oreDrops(ModBlocks.NETHER_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.KRYPTONITE_ORE, oreDrops(ModBlocks.KRYPTONITE_ORE, ModItems.KRYPTONITE));
     }
 }

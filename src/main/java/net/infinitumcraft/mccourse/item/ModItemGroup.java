@@ -17,6 +17,9 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.pink_garnet_group"))
                     .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.KRYPTONITE);
+                        entries.add(ModItems.KRYPTONITE_APPLE);
+                        entries.add(ModBlocks.KRYPTONITE_ORE);
+                        entries.add(ModBlocks.KRYPTONITE_BLOCK);
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);

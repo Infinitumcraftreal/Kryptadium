@@ -37,6 +37,12 @@ public class ModBlocks {
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+    public static final Block KRYPTONITE_BLOCK = registerBlock("kryptonite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(15).resistance(1200)));
+
+    public static final Block KRYPTONITE_ORE = registerBlock("kryptonite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).hardness(10).resistance(1200), UniformIntProvider.create(3, 6)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

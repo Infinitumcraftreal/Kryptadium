@@ -33,6 +33,9 @@ public class ModItems {
     public static final Item KRYPTONITE = registerItem("kryptonite",
             new Item(new FabricItemSettings()));
 
+    public static final Item KRYPTONITE_APPLE = registerItem("kryptonite_apple",
+            new Item(new FabricItemSettings().food(ModFoodComponents.KRYPTONITE_APPLE)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

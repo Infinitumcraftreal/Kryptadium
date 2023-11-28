@@ -3,6 +3,8 @@
   "values": [
     "mccourse:deepslate_pink_garnet_ore",
     "mccourse:end_stone_pink_garnet_ore",
-    "mccourse:nether_pink_garnet_ore"
+    "mccourse:nether_pink_garnet_ore",
+    "mccourse:kryptonite_block",
+    "mccourse:kryptonite_ore"
   ]
 }

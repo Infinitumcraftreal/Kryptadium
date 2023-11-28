@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "mccourse:pink_garnet_ore",
+    "mccourse:kryptonite_ore",
     "#minecraft:gold_ores",
     "#minecraft:coal_ores",
     "#minecraft:copper_ores",
