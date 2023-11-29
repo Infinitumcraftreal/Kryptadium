@@ -18,8 +18,6 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.KRYPTONITE);
                         entries.add(ModItems.KRYPTONITE_APPLE);
-                        entries.add(ModBlocks.KRYPTONITE_ORE);
-                        entries.add(ModBlocks.KRYPTONITE_BLOCK);
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
@@ -35,6 +33,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
 
                         entries.add(ModBlocks.SOUND_BLOCK);
+
+                        entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                        entries.add(ModBlocks.PINK_GARNET_SLAB);
+                        entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                        entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
 
                 }).build());
 

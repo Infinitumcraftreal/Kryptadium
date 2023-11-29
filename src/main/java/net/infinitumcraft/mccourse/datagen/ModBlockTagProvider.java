@@ -18,7 +18,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCK)
                 .add(ModBlocks.PINK_GARNET_ORE)
-                .add(ModBlocks.KRYPTONITE_ORE)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
@@ -35,15 +34,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
                         ModBlocks.END_STONE_PINK_GARNET_ORE,
                         ModBlocks.NETHER_PINK_GARNET_ORE,
-                        ModBlocks.KRYPTONITE_BLOCK,
-                        ModBlocks.KRYPTONITE_ORE);
+                        ModBlocks.PINK_GARNET_SLAB,
+                        ModBlocks.PINK_GARNET_STAIRS,
+                        ModBlocks.PINK_GARNET_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
                         ModBlocks.END_STONE_PINK_GARNET_ORE,
-                        ModBlocks.NETHER_PINK_GARNET_ORE,
-                        ModBlocks.KRYPTONITE_BLOCK,
-                        ModBlocks.KRYPTONITE_ORE);
+                        ModBlocks.NETHER_PINK_GARNET_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.PINK_GARNET_ORE,
