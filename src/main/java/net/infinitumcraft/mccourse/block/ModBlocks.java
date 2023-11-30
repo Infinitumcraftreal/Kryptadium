@@ -3,6 +3,7 @@ package net.infinitumcraft.mccourse.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.infinitumcraft.mccourse.MCCourseMod;
+import net.infinitumcraft.mccourse.block.custom.KryptoniteTnt;
 import net.infinitumcraft.mccourse.block.custom.SoundBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -65,6 +66,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(15).resistance(1200)));
     public static final Block KRYPTONITE_ORE = registerBlock("kryptonite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(10).resistance(1200)));
+
+    public static final Block KRYPTONITE_TNT = registerBlock("kryptonite_tnt",
+            new KryptoniteTnt(FabricBlockSettings.copyOf(Blocks.TNT)));
 
 
 

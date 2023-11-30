@@ -3,19 +3,19 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:tnt"
     },
     "S": {
       "item": "mccourse:kryptonite"
     }
   },
   "pattern": [
-    "SSS",
-    "SPS",
-    "SSS"
+    "   ",
+    " S ",
+    " P "
   ],
   "result": {
-    "item": "mccourse:kryptonite_apple"
+    "item": "mccourse:kryptonite_tnt"
   },
   "show_notification": true
 }

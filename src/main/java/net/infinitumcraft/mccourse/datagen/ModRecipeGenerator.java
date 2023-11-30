@@ -143,7 +143,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_BOOTS) ) + "_");
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_APPLE)
                 .pattern("SSS")
                 .pattern("SPS")
                 .pattern("SSS")
@@ -152,6 +152,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
                 .criterion(hasItem(Items.GOLDEN_APPLE), conditionsFromItem(Items.GOLDEN_APPLE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_APPLE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KRYPTONITE_TNT)
+                .pattern("   ")
+                .pattern(" S ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.TNT)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.TNT), conditionsFromItem(Items.TNT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KRYPTONITE_TNT) ) + "_");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PINK_GARNET, RecipeCategory.MISC, ModBlocks.PINK_GARNET_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.KRYPTONITE, RecipeCategory.MISC, ModBlocks.KRYPTONITE_BLOCK);
