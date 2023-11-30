@@ -47,7 +47,22 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PEAT_BRICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_PAXEL, Models.HANDHELD);
+
+
         itemModelGenerator.register(ModItems.KRYPTONITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.KRYPTONITE_APPLE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.KRYPTONITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_KNIFE, Models.HANDHELD);
     }
 }

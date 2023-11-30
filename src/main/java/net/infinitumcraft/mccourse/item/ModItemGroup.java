@@ -18,11 +18,26 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.KRYPTONITE);
                         entries.add(ModItems.KRYPTONITE_APPLE);
+
+                        entries.add(ModItems.KRYPTONITE_SWORD);
+                        entries.add(ModItems.KRYPTONITE_PICKAXE);
+                        entries.add(ModItems.KRYPTONITE_AXE);
+                        entries.add(ModItems.KRYPTONITE_SHOVEL);
+                        entries.add(ModItems.KRYPTONITE_HOE);
+                        entries.add(ModItems.KRYPTONITE_KNIFE);
+
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.PEAT_BRICK);
+
+                        entries.add(ModItems.PINK_GARNET_SWORD);
+                        entries.add(ModItems.PINK_GARNET_PICKAXE);
+                        entries.add(ModItems.PINK_GARNET_SHOVEL);
+                        entries.add(ModItems.PINK_GARNET_AXE);
+                        entries.add(ModItems.PINK_GARNET_HOE);
+                        entries.add(ModItems.PINK_GARNET_PAXEL);
 
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
