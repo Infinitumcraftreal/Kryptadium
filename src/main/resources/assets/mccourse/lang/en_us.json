@@ -18,6 +18,7 @@
   "item.mccourse.kryptonite_chestplate": "Kryptonite Chestplate",
   "item.mccourse.kryptonite_leggings": "Kryptonite Leggings",
   "item.mccourse.kryptonite_boots": "Kryptonite Boots",
+  "item.mccourse.kryptonite_horse_armor": "Kryptonite Horse Armor",
 
   "item.mccourse.pink_garnet_sword": "Pink Garnet Sword",
   "item.mccourse.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
@@ -45,6 +46,7 @@
   "block.mccourse.pink_garnet_door": "Pink Garnet Door",
   "block.mccourse.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
+  "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 

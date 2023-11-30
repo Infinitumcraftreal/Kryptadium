@@ -73,6 +73,7 @@ public class ModItemGroup {
                         entries.add(ModItems.KRYPTONITE_BOOTS);
 
                         entries.add(ModItems.KRYPTONITE_APPLE);
+                        entries.add(ModItems.KRYPTONITE_HORSE_ARMOR);
                     }).build());
 
 

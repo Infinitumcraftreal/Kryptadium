@@ -3,6 +3,7 @@ package net.infinitumcraft.mccourse;
 import net.fabricmc.api.ModInitializer;
 
 import net.infinitumcraft.mccourse.block.ModBlocks;
+import net.infinitumcraft.mccourse.enchantment.ModEnchantments;
 import net.infinitumcraft.mccourse.item.ModItemGroup;
 import net.infinitumcraft.mccourse.item.ModItems;
 import net.infinitumcraft.mccourse.util.ModRegistries;
@@ -21,6 +22,7 @@ public class MCCourseMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 
 	}
 }

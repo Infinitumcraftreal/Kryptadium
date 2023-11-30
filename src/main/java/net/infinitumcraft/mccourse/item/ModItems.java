@@ -75,6 +75,9 @@ public class ModItems {
     public static final Item KRYPTONITE_BOOTS = registerItem("kryptonite_boots",
             new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
 
+    public static final Item KRYPTONITE_HORSE_ARMOR = registerItem("kryptonite_horse_armor",
+            new HorseArmorItem(14, "kryptonite", new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

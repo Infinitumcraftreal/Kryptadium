@@ -72,5 +72,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_BOOTS));
+        itemModelGenerator.register(ModItems.KRYPTONITE_HORSE_ARMOR, Models.GENERATED);
     }
 }
