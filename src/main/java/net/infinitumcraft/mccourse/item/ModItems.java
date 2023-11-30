@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.infinitumcraft.mccourse.MCCourseMod;
 import net.infinitumcraft.mccourse.block.ModBlocks;
 import net.infinitumcraft.mccourse.item.custom.MetalDetectorItem;
+import net.infinitumcraft.mccourse.item.custom.ModArmorItem;
 import net.infinitumcraft.mccourse.item.custom.ModPoisonSwordItem;
 import net.infinitumcraft.mccourse.item.custom.PaxelItem;
 import net.minecraft.item.*;
@@ -66,13 +67,13 @@ public class ModItems {
             new HoeItem(ModToolMaterial.KRYPTONITE,-8, 4f,new FabricItemSettings()));
 
     public static final Item KRYPTONITE_HELMET = registerItem("kryptonite_helmet",
-            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
     public static final Item KRYPTONITE_CHESTPLATE = registerItem("kryptonite_chestplate",
-            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
     public static final Item KRYPTONITE_LEGGINGS = registerItem("kryptonite_leggings",
-            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
     public static final Item KRYPTONITE_BOOTS = registerItem("kryptonite_boots",
-            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
