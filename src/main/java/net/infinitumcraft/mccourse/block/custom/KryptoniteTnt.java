@@ -2,6 +2,7 @@ package net.infinitumcraft.mccourse.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.util.ActionResult;
@@ -24,6 +25,7 @@ public class KryptoniteTnt extends Block {
 
         if(!world.isClient()) {
             if(player.getMainHandStack().getItem() == Items.FLINT_AND_STEEL) {
+                world.setBlockState(pos, Blocks.AIR.getDefaultState());
                 world.createExplosion(null, X, Y, Z, 8, true, World.ExplosionSourceType.TNT);
             }
         }
@@ -38,6 +40,7 @@ public class KryptoniteTnt extends Block {
         int Z = pos.getZ();
 
         if(!world.isClient()) {
+            world.setBlockState(pos, Blocks.AIR.getDefaultState());
                 world.createExplosion(null, X, Y, Z, 8, true, World.ExplosionSourceType.TNT);
         }
 
@@ -51,6 +54,7 @@ public class KryptoniteTnt extends Block {
         int Z = pos.getZ();
 
         if(world.getReceivedRedstonePower(pos) > 0) {
+            world.setBlockState(pos, Blocks.AIR.getDefaultState());
             world.createExplosion(null, X, Y, Z, 8, true, World.ExplosionSourceType.TNT);
         }
 
