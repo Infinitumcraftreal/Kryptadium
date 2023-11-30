@@ -111,6 +111,38 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_KNIFE) ) + "_");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_HELMET)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .input('S', ModItems.KRYPTONITE)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_HELMET) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_CHESTPLATE)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.KRYPTONITE)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_CHESTPLATE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_LEGGINGS)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.KRYPTONITE)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_LEGGINGS) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_BOOTS)
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.KRYPTONITE)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_BOOTS) ) + "_");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET)
                 .pattern("SSS")
                 .pattern("SPS")
