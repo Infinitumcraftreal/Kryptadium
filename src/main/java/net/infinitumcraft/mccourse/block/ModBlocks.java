@@ -61,6 +61,11 @@ public class ModBlocks {
     public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR), BlockSetType.IRON));
 
+    public static final Block KRYPTONITE_BLOCK = registerBlock("kryptonite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(15).resistance(1200)));
+    public static final Block KRYPTONITE_ORE = registerBlock("kryptonite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(10).resistance(1200)));
+
 
 
     private static Block registerBlock(String name, Block block) {

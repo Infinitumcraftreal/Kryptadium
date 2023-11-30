@@ -45,11 +45,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.PINK_GARNET_FENCE_GATE,
                         ModBlocks.PINK_GARNET_WALL,
                         ModBlocks.PINK_GARNET_DOOR,
-                        ModBlocks.PINK_GARNET_TRAPDOOR);
+                        ModBlocks.PINK_GARNET_TRAPDOOR,
+                        ModBlocks.KRYPTONITE_BLOCK,
+                        ModBlocks.KRYPTONITE_ORE);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.END_STONE_PINK_GARNET_ORE);
+                .add(ModBlocks.END_STONE_PINK_GARNET_ORE,
+                    ModBlocks.KRYPTONITE_BLOCK,
+                    ModBlocks.KRYPTONITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.PINK_GARNET_ORE,

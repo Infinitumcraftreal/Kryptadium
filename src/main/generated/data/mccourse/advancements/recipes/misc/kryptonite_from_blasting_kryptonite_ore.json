@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kryptonite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:kryptonite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:kryptonite_from_blasting_kryptonite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_kryptonite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:kryptonite_from_blasting_kryptonite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

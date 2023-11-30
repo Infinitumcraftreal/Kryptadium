@@ -7,6 +7,7 @@ import net.infinitumcraft.mccourse.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -22,6 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_PINK_GARNET_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_PINK_GARNET_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 
@@ -64,5 +67,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KRYPTONITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.KRYPTONITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.KRYPTONITE_KNIFE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_BOOTS));
     }
 }

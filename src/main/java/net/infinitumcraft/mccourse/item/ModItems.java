@@ -44,6 +44,8 @@ public class ModItems {
     public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
             new PaxelItem(ModToolMaterial.PINK_GARNET,0, 0f,new FabricItemSettings()));
 
+
+    // Kryptadium
     public static final Item KRYPTONITE = registerItem("kryptonite",
             new Item(new FabricItemSettings()));
 
@@ -63,20 +65,21 @@ public class ModItems {
     public static final Item KRYPTONITE_HOE = registerItem("kryptonite_hoe",
             new HoeItem(ModToolMaterial.KRYPTONITE,-8, 4f,new FabricItemSettings()));
 
+    public static final Item KRYPTONITE_HELMET = registerItem("kryptonite_helmet",
+            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item KRYPTONITE_CHESTPLATE = registerItem("kryptonite_chestplate",
+            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item KRYPTONITE_LEGGINGS = registerItem("kryptonite_leggings",
+            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item KRYPTONITE_BOOTS = registerItem("kryptonite_boots",
+            new ArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
     }
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
-        entries.add(PINK_GARNET);
-        entries.add(RAW_PINK_GARNET);
-        entries.add(ModBlocks.PINK_GARNET_BLOCK);
-        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
-        entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
-        entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
-        entries.add(ModBlocks.PINK_GARNET_ORE);
 
 
     }

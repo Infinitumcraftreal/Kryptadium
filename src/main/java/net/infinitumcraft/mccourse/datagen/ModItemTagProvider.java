@@ -2,7 +2,9 @@ package net.infinitumcraft.mccourse.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.infinitumcraft.mccourse.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -13,6 +15,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.KRYPTONITE_HELMET, ModItems.KRYPTONITE_CHESTPLATE, ModItems.KRYPTONITE_LEGGINGS, ModItems.KRYPTONITE_BOOTS);
     }
 }

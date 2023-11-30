@@ -31,6 +31,86 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_PINK_GARNET) ) + "_");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_SHOVEL)
+                .pattern(" S ")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_SHOVEL) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_SWORD) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_AXE)
+                .pattern(" SS")
+                .pattern(" PS")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_AXE) ) + "_1");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_AXE)
+                .pattern("SS ")
+                .pattern("SP ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_AXE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_PICKAXE)
+                .pattern("SSS")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_PICKAXE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_HOE)
+                .pattern("SS ")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_HOE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_HOE)
+                .pattern(" SS")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_HOE) ) + "_2");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_KNIFE)
+                .pattern("   ")
+                .pattern("  S")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_KNIFE) ) + "_");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET)
                 .pattern("SSS")
                 .pattern("SPS")
@@ -42,6 +122,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_APPLE) ) + "_");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PINK_GARNET, RecipeCategory.MISC, ModBlocks.PINK_GARNET_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.KRYPTONITE, RecipeCategory.MISC, ModBlocks.KRYPTONITE_BLOCK);
 
 
         offerSmelting(exporter, List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE, ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
@@ -51,6 +132,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE, ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
                         ModBlocks.NETHER_PINK_GARNET_ORE, ModBlocks.END_STONE_PINK_GARNET_ORE), RecipeCategory.MISC, ModItems.PINK_GARNET,
                 0.25f, 100, "pink_garnet");
+
+        offerSmelting(exporter, List.of(ModItems.KRYPTONITE, ModBlocks.KRYPTONITE_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE,
+                0.25f, 200, "kryptonite");
+
+        offerBlasting(exporter, List.of(ModItems.KRYPTONITE, ModBlocks.KRYPTONITE_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE,
+                0.25f, 100, "kryptonite");
 
 
 

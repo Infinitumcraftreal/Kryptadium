@@ -15,16 +15,7 @@ public class ModItemGroup {
     public static final ItemGroup PINK_GARNET_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MCCourseMod.MOD_ID, "pink_garnet_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.pink_garnet_group"))
-                    .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.KRYPTONITE);
-                        entries.add(ModItems.KRYPTONITE_APPLE);
-
-                        entries.add(ModItems.KRYPTONITE_SWORD);
-                        entries.add(ModItems.KRYPTONITE_PICKAXE);
-                        entries.add(ModItems.KRYPTONITE_AXE);
-                        entries.add(ModItems.KRYPTONITE_SHOVEL);
-                        entries.add(ModItems.KRYPTONITE_HOE);
-                        entries.add(ModItems.KRYPTONITE_KNIFE);
+                    .icon(() -> new ItemStack(ModItems.PINK_GARNET)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
@@ -60,6 +51,29 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
 
                 }).build());
+
+    public static final ItemGroup KRYPTADIUM = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(MCCourseMod.MOD_ID, "kryptadium"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kryptadium"))
+                    .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.KRYPTONITE);
+                        entries.add(ModBlocks.KRYPTONITE_BLOCK);
+                        entries.add(ModBlocks.KRYPTONITE_ORE);
+
+                        entries.add(ModItems.KRYPTONITE_SWORD);
+                        entries.add(ModItems.KRYPTONITE_PICKAXE);
+                        entries.add(ModItems.KRYPTONITE_AXE);
+                        entries.add(ModItems.KRYPTONITE_SHOVEL);
+                        entries.add(ModItems.KRYPTONITE_HOE);
+                        entries.add(ModItems.KRYPTONITE_KNIFE);
+
+                        entries.add(ModItems.KRYPTONITE_HELMET);
+                        entries.add(ModItems.KRYPTONITE_CHESTPLATE);
+                        entries.add(ModItems.KRYPTONITE_LEGGINGS);
+                        entries.add(ModItems.KRYPTONITE_BOOTS);
+
+                        entries.add(ModItems.KRYPTONITE_APPLE);
+                    }).build());
 
 
     public static void registerItemGroups() {

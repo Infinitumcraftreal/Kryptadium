@@ -4,8 +4,8 @@
   "item.mccourse.metal_detector": "Metal Detector",
   "item.mccourse.cauliflower": "Cauliflower",
   "item.mccourse.peat_brick": "Peat Brick",
-  "block.mccourse.kryptonite_ore": "Kryptadium Ore",
-  "block.mccourse.kryptonite_block": "Kryptadium Block",
+  "block.mccourse.kryptonite_ore": "Kryptonite Ore",
+  "block.mccourse.kryptonite_block": "Kryptonite Block",
 
   "item.mccourse.kryptonite_sword": "Kryptonite Sword",
   "item.mccourse.kryptonite_pickaxe": "Kryptonite Pickaxe",
@@ -13,6 +13,11 @@
   "item.mccourse.kryptonite_shovel": "Kryptonite Shovel",
   "item.mccourse.kryptonite_hoe": "Kryptonite Hoe",
   "item.mccourse.kryptonite_knife": "Kryptonite Knife",
+
+  "item.mccourse.kryptonite_helmet": "Kryptonite Helmet",
+  "item.mccourse.kryptonite_chestplate": "Kryptonite Chestplate",
+  "item.mccourse.kryptonite_leggings": "Kryptonite Leggings",
+  "item.mccourse.kryptonite_boots": "Kryptonite Boots",
 
   "item.mccourse.pink_garnet_sword": "Pink Garnet Sword",
   "item.mccourse.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
@@ -43,7 +48,9 @@
 
   "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 
-  "itemgroup.pink_garnet_group": "Pink Garnet Course Group",
+  "itemgroup.kryptadium": "Kryptadium",
+
+  "itemgroup.pink_garnet_group": "Pink Garnet Group Course",
 
   "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Information",
