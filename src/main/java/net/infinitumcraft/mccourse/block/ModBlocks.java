@@ -3,8 +3,8 @@ package net.infinitumcraft.mccourse.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.infinitumcraft.mccourse.MCCourseMod;
-import net.infinitumcraft.mccourse.block.custom.KryptoniteTnt;
-import net.infinitumcraft.mccourse.block.custom.SoundBlock;
+import net.infinitumcraft.mccourse.block.custom.*;
+import net.infinitumcraft.mccourse.block.custom.TorchBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -69,6 +69,15 @@ public class ModBlocks {
 
     public static final Block KRYPTONITE_TNT = registerBlock("kryptonite_tnt",
             new KryptoniteTnt(FabricBlockSettings.copyOf(Blocks.TNT)));
+
+    public static final Block RADAR = registerBlock("radar",
+            new RadarBlock(FabricBlockSettings.copyOf(Blocks.STONE).hardness(1).resistance(10).nonOpaque()));
+
+    public static final Block KRYPTONITE_TORCH = registerBlock("kryptonite_torch",
+            new TorchBlock(FabricBlockSettings.copyOf(Blocks.TORCH).hardness(0).resistance(0).nonOpaque().noCollision().luminance(15)));
+
+    public static final Block KRYPTONITE_LANTERN = registerBlock("kryptonite_lantern",
+            new LanternBlocks(FabricBlockSettings.copyOf(Blocks.LANTERN).hardness(1).resistance(10).nonOpaque().luminance(15)));
 
 
 

@@ -1,0 +1,8 @@
+{
+  "radar_onuse": {
+    "subtitle": "sounds.mccourse.radar_onuse",
+    "sounds": [
+      "mccourse:radar_onuse"
+    ]
+  }
+}

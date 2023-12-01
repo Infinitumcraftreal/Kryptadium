@@ -66,6 +66,9 @@ public class ModItemGroup {
                         entries.add(ModItems.KRYPTONITE_SHOVEL);
                         entries.add(ModItems.KRYPTONITE_HOE);
                         entries.add(ModItems.KRYPTONITE_KNIFE);
+                        entries.add(ModItems.KRYPTONITE_BOW);
+                        entries.add(ModItems.KRYPTONITE_SHIELD);
+                        entries.add(ModItems.KRYPTONITE_HAMMER);
 
                         entries.add(ModItems.KRYPTONITE_HELMET);
                         entries.add(ModItems.KRYPTONITE_CHESTPLATE);
@@ -75,6 +78,11 @@ public class ModItemGroup {
                         entries.add(ModItems.KRYPTONITE_APPLE);
                         entries.add(ModItems.KRYPTONITE_HORSE_ARMOR);
                         entries.add(ModBlocks.KRYPTONITE_TNT);
+                        entries.add(ModItems.KRYPTONITE_DYNAMITE);
+                        entries.add(ModBlocks.RADAR);
+                        entries.add(ModBlocks.KRYPTONITE_TORCH);
+                        entries.add(ModBlocks.KRYPTONITE_LANTERN);
+
                     }).build());
 
 

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mccourse:block/kryptonite_lantern",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mccourse:block/kryptonite_lantern"
+    },
+    "facing=south": {
+      "model": "mccourse:block/kryptonite_lantern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mccourse:block/kryptonite_lantern",
+      "y": 270
+    }
+  }
+}

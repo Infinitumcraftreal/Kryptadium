@@ -34,6 +34,8 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.KRYPTONITE_ORE, oreDrops(ModBlocks.KRYPTONITE_ORE, ModItems.KRYPTONITE));
         addDrop(ModBlocks.KRYPTONITE_BLOCK);
         addDrop(ModBlocks.KRYPTONITE_TNT);
+        addDrop(ModBlocks.KRYPTONITE_TORCH);
+        addDrop(ModBlocks.KRYPTONITE_LANTERN);
 
     }
 }

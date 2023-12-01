@@ -44,6 +44,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_TNT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RADAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_TORCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_LANTERN);
     }
 
     @Override
@@ -72,11 +76,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KRYPTONITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.KRYPTONITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.KRYPTONITE_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KRYPTONITE_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.KRYPTONITE_BOOTS));
         itemModelGenerator.register(ModItems.KRYPTONITE_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KRYPTONITE_DYNAMITE, Models.GENERATED);
     }
 }

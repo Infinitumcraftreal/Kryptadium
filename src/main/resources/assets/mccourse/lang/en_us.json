@@ -27,6 +27,7 @@
   "item.mccourse.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.mccourse.pink_garnet_paxel": "Pink Garnet Paxel",
   "block.mccourse.kryptonite_tnt": "Kryptonite TNT",
+  "block.mccourse.radar": "Radar (Experimental)",
 
   "block.mccourse.pink_garnet_block": "Block of Pink Garnet",
   "block.mccourse.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -60,5 +61,13 @@
   "tooltip.mccourse.sound_block": "Plays a nice sound when Walking on, or being Right-Clicked",
 
   "item.mccourse.kryptonite": "Kryptonite",
-  "item.mccourse.kryptonite_apple": "Kryptonite Apple"
+  "item.mccourse.kryptonite_apple": "Kryptonite Apple",
+  "item.mccourse.kryptonite_bow": "Kryptonite Bow",
+  "item.mccourse.kryptonite_shield": "Kryptonite Shield",
+  "block.mccourse.kryptonite_torch": "Kryptonite Torch",
+  "block.mccourse.kryptonite_lantern": "Kryptonite Lantern",
+  "item.mccourse.kryptonite_hammer": "Kryptonite Hammer",
+  "item.mccourse.kryptonite_dynamite": "Kryptonite Dynamite",
+
+  "sounds.mccourse.radar_onuse": "Radar Used"
 }

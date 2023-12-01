@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mccourse:block/radar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mccourse:block/radar"
+    },
+    "facing=south": {
+      "model": "mccourse:block/radar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mccourse:block/radar",
+      "y": 270
+    }
+  }
+}

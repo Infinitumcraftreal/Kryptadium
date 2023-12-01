@@ -111,6 +111,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_KNIFE) ) + "_");
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_HAMMER)
+                .pattern("SSS")
+                .pattern("SPS")
+                .pattern(" P ")
+                .input('S', ModItems.KRYPTONITE)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.KRYPTONITE), conditionsFromItem(ModItems.KRYPTONITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.KRYPTONITE_HAMMER) ) + "_");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KRYPTONITE_HELMET)
                 .pattern("SSS")
                 .pattern("S S")
