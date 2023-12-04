@@ -1,0 +1,55 @@
+{
+  "parent": "mccourse:getakryptonite",
+  "criteria": {
+    "has_full_kryptonite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:kryptonite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:kryptonite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:kryptonite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "mccourse:kryptonite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "mccourse:textures/block/kryptonite_ore.png",
+    "description": {
+      "text": "Get A Full Set Of Kryptonite Armor"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:kryptonite_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Full Kryptonite Armor"
+    }
+  },
+  "requirements": [
+    [
+      "has_full_kryptonite_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

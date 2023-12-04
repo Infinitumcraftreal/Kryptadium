@@ -1,0 +1,39 @@
+{
+  "parent": "mccourse:mccourse",
+  "criteria": {
+    "has_kryptonite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mccourse:kryptonite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "mccourse:textures/block/kryptonite_ore.png",
+    "description": {
+      "text": "Get one kryptonite"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mccourse:kryptonite"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Get A Kryptonite"
+    }
+  },
+  "requirements": [
+    [
+      "has_kryptonite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

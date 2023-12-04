@@ -43,8 +43,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_TNT);
-
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RADAR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_TORCH);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_LANTERN);
