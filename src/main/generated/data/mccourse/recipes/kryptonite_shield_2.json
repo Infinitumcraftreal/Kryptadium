@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:birch_wood"
+    },
+    "S": {
+      "item": "mccourse:kryptonite"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "item": "mccourse:kryptonite_shield"
+  },
+  "show_notification": true
+}

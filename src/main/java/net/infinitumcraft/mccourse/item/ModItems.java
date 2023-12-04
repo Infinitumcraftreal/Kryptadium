@@ -47,6 +47,10 @@ public class ModItems {
     public static final Item KRYPTONITE = registerItem("kryptonite",
             new Item(new FabricItemSettings()));
 
+    public static final Item KRYPTONITE_NUGGETS = registerItem("kryptonite_nuggets",
+            new Item(new FabricItemSettings()));
+
+
     public static final Item KRYPTONITE_APPLE = registerItem("kryptonite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.KRYPTONITE_APPLE)));
 

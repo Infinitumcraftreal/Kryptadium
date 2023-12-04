@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "mccourse:kryptonite"
+    }
+  },
+  "pattern": [
+    "   ",
+    " S ",
+    " P "
+  ],
+  "result": {
+    "item": "mccourse:kryptonite_torch"
+  },
+  "show_notification": true
+}

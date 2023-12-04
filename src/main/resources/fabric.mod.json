@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "mccourse",
 	"version": "${version}",
-	"name": "MC Course Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Kryptadium 1.20.1",
+	"description": "Infinitumcraft And SkyFox Made This Mod",
 	"authors": [
-		"Infinitumcraft"
+		"Infinitumcraft",
+		"SkyFox"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://fabricmc.net/"
 	},
 	"license": "MIT",
 	"icon": "assets/mccourse/icon.png",
