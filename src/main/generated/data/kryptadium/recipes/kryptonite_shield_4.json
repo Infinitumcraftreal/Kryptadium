@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:dark_oak_wood"
+    },
+    "S": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite_shield"
+  },
+  "show_notification": true
+}

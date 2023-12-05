@@ -1,0 +1,48 @@
+{
+
+  "block.kryptadium.kryptonite_ore": "Kryptonite Ore",
+  "block.kryptadium.kryptonite_block": "Kryptonite Block",
+
+  "item.kryptadium.kryptonite_sword": "Kryptonite Sword",
+  "item.kryptadium.kryptonite_pickaxe": "Kryptonite Pickaxe",
+  "item.kryptadium.kryptonite_axe": "Kryptonite Axe",
+  "item.kryptadium.kryptonite_shovel": "Kryptonite Shovel",
+  "item.kryptadium.kryptonite_hoe": "Kryptonite Hoe",
+  "item.kryptadium.kryptonite_knife": "Kryptonite Knife",
+
+  "item.kryptadium.kryptonite_helmet": "Kryptonite Helmet",
+  "item.kryptadium.kryptonite_chestplate": "Kryptonite Chestplate",
+  "item.kryptadium.kryptonite_leggings": "Kryptonite Leggings",
+  "item.kryptadium.kryptonite_boots": "Kryptonite Boots",
+  "item.kryptadium.kryptonite_horse_armor": "Kryptonite Horse Armor",
+
+  "item.kryptadium.pink_garnet_sword": "Pink Garnet Sword",
+  "item.kryptadium.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.kryptadium.pink_garnet_axe": "Pink Garnet Axe",
+  "item.kryptadium.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.kryptadium.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.kryptadium.pink_garnet_paxel": "Pink Garnet Paxel",
+  "block.kryptadium.kryptonite_tnt": "Kryptonite TNT",
+  "block.kryptadium.radar": "Radar (Experimental)",
+
+
+
+
+  "enchantment.kryptadium.lightning_striker": "Lightning Striker",
+
+
+  "itemgroup.kryptadium": "Kryptadium",
+
+
+  "item.kryptadium.kryptonite": "Kryptonite",
+  "item.kryptadium.kryptonite_apple": "Kryptonite Apple",
+  "item.kryptadium.kryptonite_bow": "Kryptonite Bow",
+  "item.kryptadium.kryptonite_shield": "Kryptonite Shield",
+  "block.kryptadium.kryptonite_torch": "Kryptonite Torch",
+  "block.kryptadium.kryptonite_lantern": "Kryptonite Lantern",
+  "item.kryptadium.kryptonite_hammer": "Kryptonite Hammer",
+  "item.kryptadium.kryptonite_dynamite": "Kryptonite Dynamite",
+  "item.kryptadium.kryptonite_nuggets": "Kryptonite Nuggets",
+
+  "sounds.kryptadium.radar_onuse": "Radar Used"
+}

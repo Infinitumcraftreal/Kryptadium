@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SPS",
+    " P "
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite_hammer"
+  },
+  "show_notification": true
+}

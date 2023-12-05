@@ -1,0 +1,55 @@
+{
+  "parent": "kryptadium:getakryptonite",
+  "criteria": {
+    "has_full_kryptonite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:kryptonite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:kryptonite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:kryptonite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:kryptonite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "kryptadium:textures/block/kryptonite_ore.png",
+    "description": {
+      "text": "Get A Full Set Of Kryptonite Armor"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kryptadium:kryptonite_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Full Kryptonite Armor"
+    }
+  },
+  "requirements": [
+    [
+      "has_full_kryptonite_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

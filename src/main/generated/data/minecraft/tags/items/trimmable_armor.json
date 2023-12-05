@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "mccourse:kryptonite_helmet",
-    "mccourse:kryptonite_chestplate",
-    "mccourse:kryptonite_leggings",
-    "mccourse:kryptonite_boots"
+    "kryptadium:kryptonite_helmet",
+    "kryptadium:kryptonite_chestplate",
+    "kryptadium:kryptonite_leggings",
+    "kryptadium:kryptonite_boots"
   ]
 }

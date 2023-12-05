@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kryptadium:block/kryptonite_torch",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "kryptadium:block/kryptonite_torch"
+    },
+    "facing=south": {
+      "model": "kryptadium:block/kryptonite_torch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kryptadium:block/kryptonite_torch",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:tnt"
+    },
+    "S": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "pattern": [
+    "   ",
+    " S ",
+    " P "
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite_tnt"
+  },
+  "show_notification": true
+}

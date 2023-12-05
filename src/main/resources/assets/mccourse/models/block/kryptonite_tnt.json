@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "mccourse:block/kryptonite_tnt_bottom",
-    "side": "mccourse:block/kryptonite_tnt",
-    "top": "mccourse:block/kryptonite_tnt_top"
-  }
-}

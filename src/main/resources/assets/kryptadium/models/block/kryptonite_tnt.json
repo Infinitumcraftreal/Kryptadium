@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "kryptadium:block/kryptonite_tnt_bottom",
+    "side": "kryptadium:block/kryptonite_tnt",
+    "top": "kryptadium:block/kryptonite_tnt_top"
+  }
+}

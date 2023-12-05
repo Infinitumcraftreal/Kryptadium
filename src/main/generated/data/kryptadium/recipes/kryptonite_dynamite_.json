@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "P": {
+      "item": "minecraft:tnt"
+    },
+    "S": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "pattern": [
+    "PGP",
+    "GSG",
+    "PGP"
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite_dynamite"
+  },
+  "show_notification": true
+}

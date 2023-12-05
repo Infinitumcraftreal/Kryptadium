@@ -1,0 +1,8 @@
+{
+  "radar_onuse": {
+    "subtitle": "sounds.kryptadium.radar_onuse",
+    "sounds": [
+      "kryptadium:radar_onuse"
+    ]
+  }
+}

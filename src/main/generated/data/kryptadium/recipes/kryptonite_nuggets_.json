@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "pattern": [
+    "   ",
+    " S ",
+    "   "
+  ],
+  "result": {
+    "count": 9,
+    "item": "kryptadium:kryptonite_nuggets"
+  },
+  "show_notification": true
+}

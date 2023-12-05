@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "mccourse",
+	"id": "kryptadium",
 	"version": "${version}",
 	"name": "Kryptadium 1.20.1",
 	"description": "Infinitumcraft And SkyFox Made This Mod",
@@ -12,17 +12,17 @@
 		"homepage": "https://fabricmc.net/"
 	},
 	"license": "MIT",
-	"icon": "assets/mccourse/icon.png",
+	"icon": "assets/kryptadium/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.infinitumcraft.mccourse.MCCourseMod"
+			"net.infinitumcraft.kryptadium.MCCourseMod"
 		],
 		"fabric-datagen": [
-			"net.infinitumcraft.mccourse.MCCourseModDataGenerator"
+			"net.infinitumcraft.kryptadium.MCCourseModDataGenerator"
 		],
 		"client": [
-			"net.infinitumcraft.mccourse.MCCourseModClient"
+			"net.infinitumcraft.kryptadium.MCCourseModClient"
 		]
 	},
 	"mixins": [

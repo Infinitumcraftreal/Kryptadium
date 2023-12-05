@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "S": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PSP",
+    "PPP"
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite_lantern"
+  },
+  "show_notification": true
+}
