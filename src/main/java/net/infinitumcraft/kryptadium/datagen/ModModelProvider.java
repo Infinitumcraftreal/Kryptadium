@@ -1,5 +1,6 @@
 package net.infinitumcraft.kryptadium.datagen;
 
+import com.eliotlash.mclib.math.functions.classic.Mod;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
@@ -25,6 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RADAR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_TORCH);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KRYPTONITE_LANTERN);
+
+        blockStateModelGenerator.registerParentedItemModel(ModItems.KRYPTONITE_BOSS_SPAWN_EGG, ModelIds.getMinecraftNamespacedItem("template_spawn_egg"));
     }
 
     @Override

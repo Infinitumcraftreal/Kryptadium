@@ -1,8 +1,10 @@
 package net.infinitumcraft.kryptadium.entity;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.fabricmc.fabric.impl.client.keybinding.KeyBindingRegistryImpl;
 import net.infinitumcraft.kryptadium.MCCourseMod;
 import net.infinitumcraft.kryptadium.entity.custom.DiceProjectileEntity;
+import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -16,6 +18,11 @@ public class ModEntities {
             new Identifier(MCCourseMod.MOD_ID, "kryptonite_dynamite"),
             FabricEntityTypeBuilder.<DiceProjectileEntity>create(SpawnGroup.CREATURE, DiceProjectileEntity::new)
                     .dimensions(EntityDimensions.fixed(0.50f, 0.50f)).build());
+
+    public static final EntityType<KryptoniteBossEntity> KPYPTONTITE_BOSS = Registry.register(
+            Registries.ENTITY_TYPE, new Identifier(MCCourseMod.MOD_ID, "kryptonite_boss"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MISC, KryptoniteBossEntity::new)
+                    .dimensions(EntityDimensions.fixed(2f, 4f)).build());
 
 
 

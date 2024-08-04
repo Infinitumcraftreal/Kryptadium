@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.entity.ModEntities;
 import net.infinitumcraft.kryptadium.item.custom.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -24,6 +25,9 @@ public class ModItems {
     public static final Item KRYPTONITE_APPLE = registerItem("kryptonite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.KRYPTONITE_APPLE)));
 
+    public static final Item KRYPTONITE_BOSS_SPAWN_EGG = registerItem("kryptonite_boss_spawn_egg",
+            new SpawnEggItem(ModEntities.KPYPTONTITE_BOSS, 0x80c762, 0x9bd893 , new FabricItemSettings()));
+
     public static final Item KRYPTONITE_BOW = registerItem("kryptonite_bow",
             new BowItem(new FabricItemSettings().maxDamage(500)));
 
@@ -32,6 +36,7 @@ public class ModItems {
 
     public static final Item KRYPTONITE_DYNAMITE = registerItem("kryptonite_dynamite",
             new DynamiteItem(new FabricItemSettings()));
+
 
     public static final Item KRYPTONITE_SWORD = registerItem("kryptonite_sword",
             new SwordItem(ModToolMaterial.KRYPTONITE,-1, -2.3f,new FabricItemSettings()));

@@ -1,6 +1,6 @@
-// 1.20.1	2023-12-05T13:49:22.3779043	Kryptadium 1.20.1/Block Loot Tables
-1e1423b1ba7502331176a34a3172a52ababca7bc data\kryptadium\loot_tables\blocks\kryptonite_tnt.json
-9e307d2f9c9cba4c9cb3dfbca4c05f90df0e6c78 data\kryptadium\loot_tables\blocks\kryptonite_ore.json
-62f1fbc053dc5b7855719db9b8a9d68e74c88394 data\kryptadium\loot_tables\blocks\kryptonite_lantern.json
-6dff0a02c72e8436e3d544128a06c3176a39488c data\kryptadium\loot_tables\blocks\kryptonite_block.json
+// 1.20.1	2024-08-04T16:59:41.1373647	Kryptadium 1.20.1/Block Loot Tables
 f6a385f01d39f1a9620d0ba65743a9921d64fe30 data\kryptadium\loot_tables\blocks\kryptonite_torch.json
+9e307d2f9c9cba4c9cb3dfbca4c05f90df0e6c78 data\kryptadium\loot_tables\blocks\kryptonite_ore.json
+6dff0a02c72e8436e3d544128a06c3176a39488c data\kryptadium\loot_tables\blocks\kryptonite_block.json
+1e1423b1ba7502331176a34a3172a52ababca7bc data\kryptadium\loot_tables\blocks\kryptonite_tnt.json
+62f1fbc053dc5b7855719db9b8a9d68e74c88394 data\kryptadium\loot_tables\blocks\kryptonite_lantern.json

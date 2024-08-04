@@ -8,6 +8,9 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
     public static final SoundEvent RADAR_ONUSE = registerSoundEvent("radar_onuse");
+    public static final SoundEvent STEP = registerSoundEvent("step");
+    public static final SoundEvent DEATH = registerSoundEvent("dead");
+    public static final SoundEvent HURT = registerSoundEvent("hurt");
 
     private  static SoundEvent registerSoundEvent(String name) {
         Identifier identifier = new Identifier(MCCourseMod.MOD_ID, name);

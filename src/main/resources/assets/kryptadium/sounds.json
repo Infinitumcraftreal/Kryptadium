@@ -4,5 +4,23 @@
     "sounds": [
       "kryptadium:radar_onuse"
     ]
+  },
+  "dead": {
+    "subtitle": "sounds.kryptadium.dead",
+    "sounds": [
+      "kryptadium:dead"
+    ]
+  },
+  "hurt": {
+    "subtitle": "sounds.kryptadium.hurt",
+    "sounds": [
+      "kryptadium:hurt"
+    ]
+  },
+  "step": {
+    "subtitle": "sounds.kryptadium.step",
+    "sounds": [
+      "kryptadium:step"
+    ]
   }
 }

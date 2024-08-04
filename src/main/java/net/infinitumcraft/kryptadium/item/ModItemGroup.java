@@ -1,5 +1,6 @@
 package net.infinitumcraft.kryptadium.item;
 
+import com.eliotlash.mclib.math.functions.classic.Mod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.infinitumcraft.kryptadium.MCCourseMod;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
@@ -42,6 +43,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.RADAR);
                         entries.add(ModBlocks.KRYPTONITE_TORCH);
                         entries.add(ModBlocks.KRYPTONITE_LANTERN);
+                        entries.add(ModItems.KRYPTONITE_BOSS_SPAWN_EGG);
 
                     }).build());
 
