@@ -54,7 +54,7 @@ public class KryptaxoEntity extends AnimalEntity implements GeoEntity {
     }
 
     protected void initGoals() {
-        this.goalSelector.add(1, new SwimAroundGoal(this, 3f, 40));
+        this.goalSelector.add(1, new SwimGoal(this));
         this.goalSelector.add(2, new MeleeAttackGoal(this, 3f, false));
 
         this.goalSelector.add(4, new LookAroundGoal(this));
