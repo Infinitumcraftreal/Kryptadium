@@ -3,7 +3,6 @@ package net.infinitumcraft.kryptadium;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.infinitumcraft.kryptadium.enchantment.ModEnchantments;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
@@ -17,7 +16,7 @@ import net.infinitumcraft.kryptadium.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MCCourseMod implements ModInitializer {
+public class KryptadiumMod implements ModInitializer {
 	public static final String MOD_ID = "kryptadium";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

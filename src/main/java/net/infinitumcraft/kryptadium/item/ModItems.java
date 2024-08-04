@@ -3,7 +3,7 @@ package net.infinitumcraft.kryptadium.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
 import net.infinitumcraft.kryptadium.item.custom.*;
 import net.minecraft.item.*;
@@ -70,7 +70,7 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(KryptadiumMod.MOD_ID, name), item);
     }
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
@@ -79,7 +79,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        MCCourseMod.LOGGER.info("Registering Mod Items for " + MCCourseMod.MOD_ID);
+        KryptadiumMod.LOGGER.info("Registering Mod Items for " + KryptadiumMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
     }

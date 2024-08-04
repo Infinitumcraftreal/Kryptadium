@@ -1,6 +1,6 @@
 package net.infinitumcraft.kryptadium.world;
 
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -30,7 +30,7 @@ public class ModPlacedFeatures {
 
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(MCCourseMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(KryptadiumMod.MOD_ID, name));
     }
 
     private static void register(Registerable<PlacedFeature> context, RegistryKey<PlacedFeature> key, RegistryEntry<ConfiguredFeature<?, ?>> configuration,

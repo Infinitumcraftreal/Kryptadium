@@ -2,7 +2,7 @@ package net.infinitumcraft.kryptadium.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.infinitumcraft.kryptadium.block.custom.*;
 import net.infinitumcraft.kryptadium.block.custom.TorchBlock;
 import net.minecraft.block.*;
@@ -11,7 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -36,15 +35,15 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(MCCourseMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(KryptadiumMod.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(KryptadiumMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerModBlocks() {
-        MCCourseMod.LOGGER.info("Registering ModBlocks For " + MCCourseMod.MOD_ID);
+        KryptadiumMod.LOGGER.info("Registering ModBlocks For " + KryptadiumMod.MOD_ID);
     }
 }

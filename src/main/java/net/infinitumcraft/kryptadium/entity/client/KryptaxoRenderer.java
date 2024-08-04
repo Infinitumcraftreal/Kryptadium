@@ -1,8 +1,7 @@
 package net.infinitumcraft.kryptadium.entity.client;
 
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
-import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
@@ -16,7 +15,7 @@ public class KryptaxoRenderer extends GeoEntityRenderer<KryptaxoEntity> {
 
     @Override
     public Identifier getTextureLocation(KryptaxoEntity animatable) {
-        return new Identifier(MCCourseMod.MOD_ID, "textures/entities/kryptaxotexture.png");
+        return new Identifier(KryptadiumMod.MOD_ID, "textures/entities/kryptaxotexture.png");
     }
 
     @Override

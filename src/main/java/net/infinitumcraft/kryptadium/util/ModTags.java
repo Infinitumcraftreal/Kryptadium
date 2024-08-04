@@ -1,6 +1,6 @@
 package net.infinitumcraft.kryptadium.util;
 
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -16,7 +16,7 @@ public class ModTags {
                 createBlockTag("mineable/paxel");
 
         private static TagKey<Block> createBlockTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(MCCourseMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier(KryptadiumMod.MOD_ID, name));
         }
 
         private static TagKey<Block> createCommonBlockTag(String name) {
@@ -27,7 +27,7 @@ public class ModTags {
     public static class Items {
 
         private static TagKey<Item> createItemTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(MCCourseMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, new Identifier(KryptadiumMod.MOD_ID, name));
         }
 
         private static TagKey<Item> createCommonItemTag(String name) {

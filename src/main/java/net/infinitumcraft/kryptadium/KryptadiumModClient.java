@@ -11,7 +11,7 @@ import net.infinitumcraft.kryptadium.particle.ModParticles;
 import net.infinitumcraft.kryptadium.util.ModModelPredicateProvider;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 
-public class MCCourseModClient implements ClientModInitializer {
+public class KryptadiumModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

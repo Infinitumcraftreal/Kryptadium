@@ -1,8 +1,7 @@
 package net.infinitumcraft.kryptadium.item;
 
-import com.eliotlash.mclib.math.functions.classic.Mod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -13,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup KRYPTADIUM = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MCCourseMod.MOD_ID, "kryptadium"),
+            new Identifier(KryptadiumMod.MOD_ID, "kryptadium"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kryptadium"))
                     .icon(() -> new ItemStack(ModItems.KRYPTONITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.KRYPTONITE);

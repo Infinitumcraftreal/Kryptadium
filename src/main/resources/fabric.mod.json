@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.infinitumcraft.kryptadium.MCCourseMod"
+			"net.infinitumcraft.kryptadium.KryptadiumMod"
 		],
 		"fabric-datagen": [
-			"net.infinitumcraft.kryptadium.MCCourseModDataGenerator"
+			"net.infinitumcraft.kryptadium.KryptadiumModDataGenerator"
 		],
 		"client": [
-			"net.infinitumcraft.kryptadium.MCCourseModClient"
+			"net.infinitumcraft.kryptadium.KryptadiumModClient"
 		]
 	},
 	"mixins": [

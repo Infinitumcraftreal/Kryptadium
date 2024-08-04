@@ -1,6 +1,6 @@
 package net.infinitumcraft.kryptadium.entity.client;
 
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
@@ -15,7 +15,7 @@ public class KryptoniteBossRenderer extends GeoEntityRenderer<KryptoniteBossEnti
 
     @Override
     public Identifier getTextureLocation(KryptoniteBossEntity animatable) {
-        return new Identifier(MCCourseMod.MOD_ID, "textures/entities/kryptoniteboss.png");
+        return new Identifier(KryptadiumMod.MOD_ID, "textures/entities/kryptoniteboss.png");
     }
 
     @Override

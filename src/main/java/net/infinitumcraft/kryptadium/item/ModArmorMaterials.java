@@ -1,5 +1,5 @@
 package net.infinitumcraft.kryptadium.item;
-import net.infinitumcraft.kryptadium.MCCourseMod;
+import net.infinitumcraft.kryptadium.KryptadiumMod;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ArmorMaterials;
@@ -71,7 +71,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return MCCourseMod.MOD_ID + ":" + this.name;
+        return KryptadiumMod.MOD_ID + ":" + this.name;
     }
 
     @Override

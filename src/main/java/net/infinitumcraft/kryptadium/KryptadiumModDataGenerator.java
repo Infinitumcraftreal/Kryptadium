@@ -8,7 +8,7 @@ import net.infinitumcraft.kryptadium.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
-public class MCCourseModDataGenerator implements DataGeneratorEntrypoint {
+public class KryptadiumModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
