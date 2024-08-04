@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.infinitumcraft.kryptadium.enchantment.ModEnchantments;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
+import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
 import net.infinitumcraft.kryptadium.item.ModItemGroup;
 import net.infinitumcraft.kryptadium.item.ModItems;
@@ -35,6 +36,7 @@ public class MCCourseMod implements ModInitializer {
 
 		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.KPYPTONTITE_BOSS, KryptoniteBossEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.KRYPTAXO, KryptaxoEntity.setAttributes());
 
 	}
 }

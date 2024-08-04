@@ -92,15 +92,6 @@ public class KryptoniteBossEntity extends AnimalEntity implements GeoEntity {
         this.playSound(ModSounds.STEP, 0.2f, 1.0f);
     }
 
-    @Override
-    protected void playHurtSound(DamageSource source) {
-        this.playSound(ModSounds.HURT, 0.2f, 1f);
-    }
-
-    @Override
-    public void onDeath(DamageSource damageSource) {
-        this.playSound(ModSounds.DEATH, 0.2f, 1f);
-    }
 
     @Override
     public SoundEvent getHurtSound(DamageSource ds) {

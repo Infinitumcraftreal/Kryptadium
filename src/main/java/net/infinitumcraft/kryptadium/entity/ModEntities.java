@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.impl.client.keybinding.KeyBindingRegistryImpl;
 import net.infinitumcraft.kryptadium.MCCourseMod;
 import net.infinitumcraft.kryptadium.entity.custom.DiceProjectileEntity;
+import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
@@ -23,6 +24,11 @@ public class ModEntities {
             Registries.ENTITY_TYPE, new Identifier(MCCourseMod.MOD_ID, "kryptonite_boss"),
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, KryptoniteBossEntity::new)
                     .dimensions(EntityDimensions.fixed(2f, 4f)).build());
+
+    public static final EntityType<KryptaxoEntity> KRYPTAXO = Registry.register(
+            Registries.ENTITY_TYPE, new Identifier(MCCourseMod.MOD_ID, "kryptaxo"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MISC, KryptaxoEntity::new)
+                    .dimensions(EntityDimensions.fixed(1f, 0.5f)).build());
 
 
 

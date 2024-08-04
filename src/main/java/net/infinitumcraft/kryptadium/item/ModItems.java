@@ -28,6 +28,9 @@ public class ModItems {
     public static final Item KRYPTONITE_BOSS_SPAWN_EGG = registerItem("kryptonite_boss_spawn_egg",
             new SpawnEggItem(ModEntities.KPYPTONTITE_BOSS, 0x80c762, 0x9bd893 , new FabricItemSettings()));
 
+    public static final Item KRYPTAXO_SPAWN_EGG = registerItem("kryptaxo_spawn_egg",
+            new SpawnEggItem(ModEntities.KRYPTAXO, 0x80c762, 0x9bd893 , new FabricItemSettings()));
+
     public static final Item KRYPTONITE_BOW = registerItem("kryptonite_bow",
             new BowItem(new FabricItemSettings().maxDamage(500)));
 

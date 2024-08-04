@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
+import net.infinitumcraft.kryptadium.entity.client.KryptaxoRenderer;
 import net.infinitumcraft.kryptadium.entity.client.KryptoniteBossRenderer;
 import net.infinitumcraft.kryptadium.particle.KryptoniteParticle;
 import net.infinitumcraft.kryptadium.particle.ModParticles;
@@ -20,5 +21,6 @@ public class MCCourseModClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.KRYPTONITE_DYNAMITE, FlyingItemEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.KPYPTONTITE_BOSS, KryptoniteBossRenderer::new);
+        EntityRendererRegistry.register(ModEntities.KRYPTAXO, KryptaxoRenderer::new);
     }
 }
