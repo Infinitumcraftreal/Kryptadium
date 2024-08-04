@@ -48,7 +48,6 @@ public class KryptaxoEntity extends AxolotlEntity implements GeoEntity {
 
     public static DefaultAttributeContainer.Builder setAttributes() {
         return AxolotlEntity.createMobAttributes()
-            .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 1)
             .add(EntityAttributes.GENERIC_MAX_HEALTH, 14)
             .add(EntityAttributes.GENERIC_ARMOR, 0)
             .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 2)
