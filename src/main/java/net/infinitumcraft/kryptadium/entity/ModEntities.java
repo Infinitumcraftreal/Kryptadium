@@ -27,7 +27,7 @@ public class ModEntities {
 
     public static final EntityType<KryptaxoEntity> KRYPTAXO = Registry.register(
             Registries.ENTITY_TYPE, new Identifier(MCCourseMod.MOD_ID, "kryptaxo"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MISC, KryptaxoEntity::new)
+            FabricEntityTypeBuilder.create(SpawnGroup.AXOLOTLS, KryptaxoEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 0.5f)).build());
 
 

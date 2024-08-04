@@ -1,0 +1,44 @@
+{
+
+  "block.kryptadium.kryptonite_ore": "Minerai de Kryptonite",
+  "block.kryptadium.kryptonite_block": "Bloc de Kryptonite",
+
+  "item.kryptadium.kryptonite_sword": "Épée en Kryptonite",
+  "item.kryptadium.kryptonite_pickaxe": "Pioche en Kryptonite",
+  "item.kryptadium.kryptonite_axe": "Hache en Kryptonite",
+  "item.kryptadium.kryptonite_shovel": "Pelle en Kryptonite",
+  "item.kryptadium.kryptonite_hoe": "Houe en Kryptonite",
+  "item.kryptadium.kryptonite_knife": "Couteau en Kryptonite",
+
+  "item.kryptadium.kryptonite_helmet": "Casque en Kryptonite",
+  "item.kryptadium.kryptonite_chestplate": "Plastron en Kryptonite",
+  "item.kryptadium.kryptonite_leggings": "Jambières en Kryptonite",
+  "item.kryptadium.kryptonite_boots": "Bottes en Kryptonite",
+  "item.kryptadium.kryptonite_horse_armor": "Armure de cheval en Kryptonite",
+
+  "block.kryptadium.kryptonite_tnt": "Kryptonite TNT",
+  "block.kryptadium.radar": "Radar (Experimental)",
+
+
+
+
+  "enchantment.kryptadium.lightning_striker": "Lightning Striker",
+
+
+  "itemgroup.kryptadium": "Kryptadium",
+
+
+  "item.kryptadium.kryptonite": "Kryptonite",
+  "item.kryptadium.kryptonite_apple": "Pomme de Kryptonite",
+  "item.kryptadium.kryptonite_bow": "Arc en Kryptonite",
+  "item.kryptadium.kryptonite_shield": "Bouclier de Kryptonite",
+  "block.kryptadium.kryptonite_torch": "Torche en Kryptonite",
+  "block.kryptadium.kryptonite_lantern": "Lanterne de Kryptonite",
+  "item.kryptadium.kryptonite_hammer": "Marteau en Kryptonite",
+  "item.kryptadium.kryptonite_dynamite": "Dynamite Kryptonite",
+  "item.kryptadium.kryptonite_nuggets": "Pépite de Kryptonite",
+  "item.kryptadium.kryptonite_boss_spawn_egg": "Œufs d'apparition de Golem en Kryptonite",
+  "item.kryptadium.kryptaxo_spawn_egg": "Œufs d'apparition de Kryptaxo",
+
+  "sounds.kryptadium.radar_onuse": "Radar Used"
+}
