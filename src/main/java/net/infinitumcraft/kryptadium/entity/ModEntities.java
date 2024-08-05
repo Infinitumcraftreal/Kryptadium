@@ -1,10 +1,13 @@
 package net.infinitumcraft.kryptadium.entity;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.infinitumcraft.kryptadium.KryptadiumMod;
+import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.infinitumcraft.kryptadium.entity.custom.DiceProjectileEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -28,7 +31,6 @@ public class ModEntities {
             Registries.ENTITY_TYPE, new Identifier(KryptadiumMod.MOD_ID, "kryptaxo"),
             FabricEntityTypeBuilder.create(SpawnGroup.AXOLOTLS, KryptaxoEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 0.5f)).build());
-
 
 
     public static void registerModEntities() {

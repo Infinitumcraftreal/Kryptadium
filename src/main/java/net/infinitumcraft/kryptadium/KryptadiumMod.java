@@ -13,6 +13,8 @@ import net.infinitumcraft.kryptadium.item.ModItems;
 import net.infinitumcraft.kryptadium.sound.ModSounds;
 import net.infinitumcraft.kryptadium.util.ModRegistries;
 import net.infinitumcraft.kryptadium.world.gen.ModWorldGeneration;
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
