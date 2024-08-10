@@ -14,7 +14,9 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
 
         addDrop(ModBlocks.KRYPTONITE_ORE, oreDrops(ModBlocks.KRYPTONITE_ORE, ModItems.KRYPTONITE));
+        addDrop(ModBlocks.IRIDIUM_ORE, oreDrops(ModBlocks.IRIDIUM_ORE, ModItems.KRYPTONITE));
         addDrop(ModBlocks.KRYPTONITE_BLOCK);
+        addDrop(ModBlocks.IRIDIUM_BLOCK);
         addDrop(ModBlocks.KRYPTONITE_TNT);
         addDrop(ModBlocks.KRYPTONITE_TORCH);
         addDrop(ModBlocks.KRYPTONITE_LANTERN);

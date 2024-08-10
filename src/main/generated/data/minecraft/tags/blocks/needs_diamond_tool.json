@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "kryptadium:kryptonite_block",
+    "kryptadium:iridium_ore",
+    "kryptadium:iridium_block",
     "kryptadium:kryptonite_ore"
   ]
 }

@@ -32,6 +32,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.KRYPTONITE_BLOCK,
                         ModBlocks.KRYPTONITE_ORE,
+                        ModBlocks.IRIDIUM_ORE,
+                        ModBlocks.IRIDIUM_BLOCK,
                         ModBlocks.RADAR,
                         ModBlocks.KRYPTONITE_LANTERN);
 
@@ -39,6 +41,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.KRYPTONITE_BLOCK,
+                        ModBlocks.IRIDIUM_ORE,
+                        ModBlocks.IRIDIUM_BLOCK,
                     ModBlocks.KRYPTONITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

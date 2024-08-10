@@ -3,6 +3,8 @@
   "values": [
     "kryptadium:kryptonite_block",
     "kryptadium:kryptonite_ore",
+    "kryptadium:iridium_ore",
+    "kryptadium:iridium_block",
     "kryptadium:radar",
     "kryptadium:kryptonite_lantern"
   ]

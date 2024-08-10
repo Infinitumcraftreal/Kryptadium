@@ -20,6 +20,11 @@ public class ModBlocks {
     public static final Block KRYPTONITE_ORE = registerBlock("kryptonite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).hardness(10).resistance(1200)));
 
+    public static final Block IRIDIUM_BLOCK = registerBlock("iridium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).hardness(20).resistance(1200)));
+    public static final Block IRIDIUM_ORE = registerBlock("iridium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).hardness(10).resistance(1200)));
+
     public static final Block KRYPTONITE_TNT = registerBlock("kryptonite_tnt",
             new KryptoniteTnt(FabricBlockSettings.copyOf(Blocks.TNT)));
 

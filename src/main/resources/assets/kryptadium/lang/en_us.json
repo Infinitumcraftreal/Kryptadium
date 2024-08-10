@@ -40,5 +40,8 @@
   "item.kryptadium.kryptonite_boss_spawn_egg": "Kryptonite Boss Spawn Egg",
   "item.kryptadium.kryptaxo_spawn_egg": "Kryptaxo Spawn Egg",
 
-  "sounds.kryptadium.radar_onuse": "Radar Used"
+  "sounds.kryptadium.radar_onuse": "Radar Used",
+
+  "block.kryptadium.iridium_block": "Iridium Block",
+  "block.kryptadium.iridium_ore": "Iridium Ore"
 }

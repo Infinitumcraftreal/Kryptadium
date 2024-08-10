@@ -44,6 +44,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.KRYPTONITE_LANTERN);
                         entries.add(ModItems.KRYPTONITE_BOSS_SPAWN_EGG);
                         entries.add(ModItems.KRYPTAXO_SPAWN_EGG);
+                        entries.add(ModBlocks.IRIDIUM_BLOCK);
+                        entries.add(ModBlocks.IRIDIUM_ORE);
 
                     }).build());
 

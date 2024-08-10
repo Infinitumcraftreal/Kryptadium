@@ -1,3 +1,5 @@
-// 1.20.1	2024-08-04T17:56:41.9738548	Kryptadium 1.20.1/World Gen
+// 1.20.1	2024-08-10T15:41:18.8404899	Kryptadium 1.20.1/World Gen
+a2c6cb2b3976ccee0ffd6a0484585ac4e36476f8 data\kryptadium\worldgen\placed_feature\kryptonite_ore_placed.json
+a6de6c9ad50990d441af2233445a1d8a94b5cd19 data\kryptadium\worldgen\placed_feature\iridium_ore_placed.json
+cd7ed2aedfdc93723e8201012e344666cb1e36df data\kryptadium\worldgen\configured_feature\iridium_ore.json
 0e508b476e57a9d7bd9c8cadba74e7542d930671 data\kryptadium\worldgen\configured_feature\kryptonite_ore.json
-b3ed77105130113c5d146cd2800219147c5b141e data\kryptadium\worldgen\placed_feature\kryptonite_ore_placed.json

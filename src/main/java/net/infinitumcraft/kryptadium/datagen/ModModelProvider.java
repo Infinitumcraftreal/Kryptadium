@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KRYPTONITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRIDIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRIDIUM_ORE);
 
 
 

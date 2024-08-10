@@ -320,7 +320,11 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.KRYPTONITE, ModBlocks.KRYPTONITE_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE,
                 0.25f, 100, "kryptonite");
 
+        offerSmelting(exporter, List.of(ModItems.KRYPTONITE_APPLE, ModBlocks.IRIDIUM_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE_APPLE,
+                0.25f, 200, "kryptonite");
 
+        offerBlasting(exporter, List.of(ModItems.KRYPTONITE_APPLE, ModBlocks.IRIDIUM_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE_APPLE,
+                0.25f, 100, "kryptonite");
 
     }
 }

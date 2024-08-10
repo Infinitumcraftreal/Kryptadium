@@ -16,6 +16,7 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> KRYPTONITE_ORE_PLACED_KEY = registerKey("kryptonite_ore_placed");
+    public static final RegistryKey<PlacedFeature> IRIDIUM_ORE_PLACED_KEY = registerKey("iridium_ore_placed");
 
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
@@ -24,8 +25,13 @@ public class ModPlacedFeatures {
 
 
         register(context, KRYPTONITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.KRYPTONITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(10,
+                ModOrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+
+        register(context, IRIDIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.IRIDIUM_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(3,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+
     }
 
 

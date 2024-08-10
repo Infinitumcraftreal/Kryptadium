@@ -40,5 +40,8 @@
   "item.kryptadium.kryptonite_boss_spawn_egg": "Œufs d'apparition de Golem en Kryptonite",
   "item.kryptadium.kryptaxo_spawn_egg": "Œufs d'apparition de Kryptaxo",
 
-  "sounds.kryptadium.radar_onuse": "Radar Used"
+  "sounds.kryptadium.radar_onuse": "Radar Used",
+
+  "block.kryptadium.iridium_block": "Bloc de Iridium",
+  "block.kryptadium.iridium_ore": "Minerai de Iridium"
 }

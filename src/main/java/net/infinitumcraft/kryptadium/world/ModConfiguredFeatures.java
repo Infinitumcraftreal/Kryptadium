@@ -17,17 +17,25 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> KRYPTONITE_ORE_KEY = registerKey("kryptonite_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> IRIDIUM_ORE_KEY = registerKey("iridium_ore");
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateReplaceable = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+
 
 
         List<OreFeatureConfig.Target> overworldKryptoniteOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.KRYPTONITE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldIriniumOres =
+                List.of(OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.IRIDIUM_ORE.getDefaultState()));
+
 
 
         register(context, KRYPTONITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldKryptoniteOres, 4));
+        register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldIriniumOres, 4));
     }
 
 

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_kryptonite_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:kryptonite_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:kryptonite_apple_from_blasting_kryptonite_apple"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_kryptonite_apple",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:kryptonite_apple_from_blasting_kryptonite_apple"
+    ]
+  },
+  "sends_telemetry_event": false
+}

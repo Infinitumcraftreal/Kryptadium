@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "kryptonite",
+  "ingredient": {
+    "item": "kryptadium:kryptonite_apple"
+  },
+  "result": "kryptadium:kryptonite_apple"
+}
