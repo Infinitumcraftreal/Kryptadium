@@ -53,5 +53,29 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                 .criterion("has_kryptonite_block", InventoryChangedCriterion.Conditions.items(ModBlocks.KRYPTONITE_BLOCK))
                 .parent(getakryptonite)
                 .build(consumer, KryptadiumMod.MOD_ID + ":getkryptoniteblock");
+
+        Advancement getairidium = Advancement.Builder.create()
+                .display(new AdvancementDisplay(new ItemStack(ModItems.IRIDIUM),
+                        Text.literal("Get A Iridium"), Text.literal("Get one iridium"),
+                        new Identifier(KryptadiumMod.MOD_ID, "textures/block/iridium_ore.png"), AdvancementFrame.TASK, true, true ,false))
+                .criterion("has_kryptonite", InventoryChangedCriterion.Conditions.items(ModItems.IRIDIUM))
+                .parent(rootAdvancement)
+                .build(consumer, KryptadiumMod.MOD_ID + ":getairidium");
+
+        Advancement getfulliridiumarmor = Advancement.Builder.create()
+                .display(new AdvancementDisplay(new ItemStack(ModItems.IRIDIUM_HELMET),
+                        Text.literal("Full Iridium Armor"), Text.literal("Get A Full Set Of Iridium Armor"),
+                        new Identifier(KryptadiumMod.MOD_ID, "textures/block/iridium_ore.png"), AdvancementFrame.CHALLENGE, true, true ,false))
+                .criterion("has_full_Iridium_armor", InventoryChangedCriterion.Conditions.items(ModItems.IRIDIUM_HELMET, ModItems.IRIDIUM_CHESTPLATE, ModItems.IRIDIUM_LEGGINGS, ModItems.IRIDIUM_BOOTS))
+                .parent(getairidium)
+                .build(consumer, KryptadiumMod.MOD_ID + ":getfulliridiumarmor");
+
+        Advancement getiridiumblock = Advancement.Builder.create()
+                .display(new AdvancementDisplay(new ItemStack(ModBlocks.IRIDIUM_BLOCK),
+                        Text.literal("Craft A Iridium Block"), Text.literal("You Got A Iridium Block!"),
+                        new Identifier(KryptadiumMod.MOD_ID, "textures/block/iridium_ore.png"), AdvancementFrame.TASK, true, true ,false))
+                .criterion("has_iridium_block", InventoryChangedCriterion.Conditions.items(ModBlocks.IRIDIUM_BLOCK))
+                .parent(getairidium)
+                .build(consumer, KryptadiumMod.MOD_ID + ":getiridiumblock");
     }
 }

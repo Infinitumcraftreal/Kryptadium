@@ -7,7 +7,8 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    KRYPTONITE(5, 2554, 13.0f, 9.0f, 16, () -> Ingredient.ofItems(ModItems.KRYPTONITE));
+    KRYPTONITE(5, 2554, 13.0f, 9.0f, 16, () -> Ingredient.ofItems(ModItems.KRYPTONITE)),
+    IRIDIUM(5, 3400, 14.0f, 9.0f, 16, () -> Ingredient.ofItems(ModItems.IRIDIUM));
 
     private final int miningLevel;
     private final int itemDurability;

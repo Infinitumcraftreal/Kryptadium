@@ -44,8 +44,27 @@ public class ModItemGroup {
                         entries.add(ModBlocks.KRYPTONITE_LANTERN);
                         entries.add(ModItems.KRYPTONITE_BOSS_SPAWN_EGG);
                         entries.add(ModItems.KRYPTAXO_SPAWN_EGG);
+                        entries.add(ModItems.IRIDIUM);
+                        entries.add(ModItems.IRIDIUM_NUGGETS);
                         entries.add(ModBlocks.IRIDIUM_BLOCK);
                         entries.add(ModBlocks.IRIDIUM_ORE);
+
+                        entries.add(ModItems.IRIDIUM_SWORD);
+                        entries.add(ModItems.IRIDIUM_PICKAXE);
+                        entries.add(ModItems.IRIDIUM_AXE);
+                        entries.add(ModItems.IRIDIUM_SHOVEL);
+                        entries.add(ModItems.IRIDIUM_HOE);
+                        entries.add(ModItems.IRIDIUM_KNIFE);
+                        entries.add(ModItems.IRIDIUM_BOW);
+                        entries.add(ModItems.IRIDIUM_SHIELD);
+                        entries.add(ModItems.IRIDIUM_HAMMER);
+
+                        entries.add(ModItems.IRIDIUM_HELMET);
+                        entries.add(ModItems.IRIDIUM_CHESTPLATE);
+                        entries.add(ModItems.IRIDIUM_LEGGINGS);
+                        entries.add(ModItems.IRIDIUM_BOOTS);
+
+                        entries.add(ModItems.IRIDIUM_HORSE_ARMOR);
 
                     }).build());
 

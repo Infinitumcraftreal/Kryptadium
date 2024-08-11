@@ -4,6 +4,10 @@
     "kryptadium:kryptonite_helmet",
     "kryptadium:kryptonite_chestplate",
     "kryptadium:kryptonite_leggings",
-    "kryptadium:kryptonite_boots"
+    "kryptadium:kryptonite_boots",
+    "kryptadium:iridium_helmet",
+    "kryptadium:iridium_chestplate",
+    "kryptadium:iridium_leggings",
+    "kryptadium:iridium_boots"
   ]
 }

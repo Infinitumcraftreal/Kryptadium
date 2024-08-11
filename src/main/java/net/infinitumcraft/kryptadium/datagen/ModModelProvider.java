@@ -56,5 +56,23 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KRYPTONITE_HORSE_ARMOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.KRYPTONITE_DYNAMITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.KRYPTONITE_NUGGETS, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.IRIDIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRIDIUM_NUGGETS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_BOOTS));
+        itemModelGenerator.register(ModItems.IRIDIUM_HORSE_ARMOR, Models.GENERATED);
     }
 }

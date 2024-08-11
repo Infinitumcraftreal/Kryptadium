@@ -9,8 +9,11 @@ import net.minecraft.util.Identifier;
 public class ModModelPredicateProvider {
     public static void registerModModels() {
         registerBow(ModItems.KRYPTONITE_BOW);
+        registerBow(ModItems.IRIDIUM_BOW);
 
         ModelPredicateProviderRegistry.register(ModItems.KRYPTONITE_SHIELD, new Identifier("blocking"),
+                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
+        ModelPredicateProviderRegistry.register(ModItems.IRIDIUM_SHIELD, new Identifier("blocking"),
                 (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
     }
 

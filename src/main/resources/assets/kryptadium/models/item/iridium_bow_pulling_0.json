@@ -1,0 +1,6 @@
+{
+    "parent": "kryptadium:item/iridium_bow",
+    "textures": {
+        "layer0": "kryptadium:item/iridium_bow_pulling_0"
+    }
+}

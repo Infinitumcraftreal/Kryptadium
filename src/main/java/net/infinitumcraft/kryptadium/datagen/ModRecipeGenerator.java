@@ -326,5 +326,216 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.KRYPTONITE_APPLE, ModBlocks.IRIDIUM_ORE), RecipeCategory.MISC, ModItems.KRYPTONITE_APPLE,
                 0.25f, 100, "kryptonite");
 
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.IRIDIUM, RecipeCategory.MISC, ModBlocks.IRIDIUM_BLOCK);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHOVEL)
+                .pattern(" S ")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHOVEL) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SWORD)
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SWORD) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_AXE)
+                .pattern(" SS")
+                .pattern(" PS")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_AXE) ) + "_1");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_AXE)
+                .pattern("SS ")
+                .pattern("SP ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_AXE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_PICKAXE)
+                .pattern("SSS")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_PICKAXE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HOE)
+                .pattern("SS ")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_HOE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HOE)
+                .pattern(" SS")
+                .pattern(" P ")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_HOE) ) + "_2");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_KNIFE)
+                .pattern("   ")
+                .pattern("  S")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_KNIFE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HAMMER)
+                .pattern("SSS")
+                .pattern("SPS")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_HAMMER) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM)
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.IRIDIUM_NUGGETS)
+                .criterion(hasItem(ModItems.IRIDIUM_NUGGETS), conditionsFromItem(ModItems.IRIDIUM_NUGGETS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM) ) + "_2");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HORSE_ARMOR)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.IRIDIUM)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_HORSE_ARMOR) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.OAK_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.OAK_WOOD), conditionsFromItem(Items.OAK_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.ACACIA_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.ACACIA_WOOD), conditionsFromItem(Items.ACACIA_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_1");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.BIRCH_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.BIRCH_WOOD), conditionsFromItem(Items.BIRCH_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_2");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.CHERRY_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.CHERRY_WOOD), conditionsFromItem(Items.CHERRY_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_3");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.DARK_OAK_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.DARK_OAK_WOOD), conditionsFromItem(Items.DARK_OAK_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_4");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.JUNGLE_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.JUNGLE_WOOD), conditionsFromItem(Items.JUNGLE_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_5");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHIELD)
+                .pattern("PSP")
+                .pattern("PPP")
+                .pattern(" P ")
+                .input('S', ModItems.IRIDIUM)
+                .input('P', Items.SPRUCE_WOOD)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .criterion(hasItem(Items.SPRUCE_WOOD), conditionsFromItem(Items.SPRUCE_WOOD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_SHIELD) ) + "_7");
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HELMET)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .input('S', ModItems.IRIDIUM)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_HELMET) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_CHESTPLATE)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.IRIDIUM)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_CHESTPLATE) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_LEGGINGS)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.IRIDIUM)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_LEGGINGS) ) + "_");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_BOOTS)
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.IRIDIUM)
+                .criterion(hasItem(ModItems.IRIDIUM), conditionsFromItem(ModItems.IRIDIUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRIDIUM_BOOTS) ) + "_");
+
     }
 }

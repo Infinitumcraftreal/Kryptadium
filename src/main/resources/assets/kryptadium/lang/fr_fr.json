@@ -42,6 +42,25 @@
 
   "sounds.kryptadium.radar_onuse": "Radar Used",
 
+  "item.kryptadium.iridium": "Kryptonite",
   "block.kryptadium.iridium_block": "Bloc de Iridium",
-  "block.kryptadium.iridium_ore": "Minerai de Iridium"
+  "block.kryptadium.iridium_ore": "Minerai de Iridium",
+
+  "item.kryptadium.iridium_sword": "Épée en Iridium",
+  "item.kryptadium.iridium_pickaxe": "Pioche en Iridium",
+  "item.kryptadium.iridium_axe": "Hache en Iridium",
+  "item.kryptadium.iridium_shovel": "Pelle en Iridium",
+  "item.kryptadium.iridium_hoe": "Houe en Iridium",
+  "item.kryptadium.iridium_knife": "Couteau en Iridium",
+
+  "item.kryptadium.iridium_helmet": "Casque en Iridium",
+  "item.kryptadium.iridium_chestplate": "Plastron en Iridium",
+  "item.kryptadium.iridium_leggings": "Jambières en Iridium",
+  "item.kryptadium.iridium_boots": "Bottes en Iridium",
+  "item.kryptadium.iridium_horse_armor": "Armure de cheval en Iridium",
+
+  "item.kryptadium.iridium_bow": "Arc en Iridium",
+  "item.kryptadium.iridium_shield": "Bouclier de Iridium",
+  "item.kryptadium.iridium_hammer": "Marteau en Iridium",
+  "item.kryptadium.iridium_nuggets": "Pépite de Iridium"
 }

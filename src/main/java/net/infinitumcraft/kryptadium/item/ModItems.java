@@ -54,7 +54,7 @@ public class ModItems {
     public static final Item KRYPTONITE_HOE = registerItem("kryptonite_hoe",
             new HoeItem(ModToolMaterial.KRYPTONITE,-8, 4f,new FabricItemSettings()));
     public static final Item KRYPTONITE_HAMMER = registerItem("kryptonite_hammer",
-            new PaxelItem(ModToolMaterial.KRYPTONITE,0, 0f,new FabricItemSettings()));
+            new PaxelItem(ModToolMaterial.KRYPTONITE,0, -4f,new FabricItemSettings()));
 
     public static final Item KRYPTONITE_HELMET = registerItem("kryptonite_helmet",
             new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
@@ -67,6 +67,45 @@ public class ModItems {
 
     public static final Item KRYPTONITE_HORSE_ARMOR = registerItem("kryptonite_horse_armor",
             new HorseArmorItem(14, "kryptonite", new FabricItemSettings()));
+
+    public static final Item IRIDIUM = registerItem("iridium",
+            new Item(new FabricItemSettings()));
+
+    public static final Item IRIDIUM_NUGGETS = registerItem("iridium_nuggets",
+            new Item(new FabricItemSettings()));
+
+    public static final Item IRIDIUM_BOW = registerItem("iridium_bow",
+            new BowItem(new FabricItemSettings().maxDamage(650)));
+
+    public static final Item IRIDIUM_SHIELD = registerItem("iridium_shield",
+            new ShieldItem(new FabricItemSettings().maxDamage(650)));
+
+    public static final Item IRIDIUM_SWORD = registerItem("iridium_sword",
+            new SwordItem(ModToolMaterial.IRIDIUM,0, -2.3f,new FabricItemSettings()));
+    public static final Item IRIDIUM_KNIFE = registerItem("iridium_knife",
+            new SwordItem(ModToolMaterial.IRIDIUM,-6, 3f,new FabricItemSettings()));
+    public static final Item IRIDIUM_PICKAXE = registerItem("iridium_pickaxe",
+            new PickaxeItem(ModToolMaterial.IRIDIUM,-4, -2.7f,new FabricItemSettings()));
+    public static final Item IRIDIUM_SHOVEL = registerItem("iridium_shovel",
+            new ShovelItem(ModToolMaterial.IRIDIUM,-6.25f, 1f,new FabricItemSettings()));
+    public static final Item IRIDIUM_AXE = registerItem("iridium_axe",
+            new AxeItem(ModToolMaterial.IRIDIUM,1, -3f,new FabricItemSettings()));
+    public static final Item IRIDIUM_HOE = registerItem("iridium_hoe",
+            new HoeItem(ModToolMaterial.IRIDIUM,-8, 4f,new FabricItemSettings()));
+    public static final Item IRIDIUM_HAMMER = registerItem("iridium_hammer",
+            new PaxelItem(ModToolMaterial.IRIDIUM,0, -4f,new FabricItemSettings()));
+
+    public static final Item IRIDIUM_HELMET = registerItem("iridium_helmet",
+            new ModArmorItem(ModArmorMaterials.IRIDIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item IRIDIUM_CHESTPLATE = registerItem("iridium_chestplate",
+            new ModArmorItem(ModArmorMaterials.IRIDIUM, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item IRIDIUM_LEGGINGS = registerItem("iridium_leggings",
+            new ModArmorItem(ModArmorMaterials.IRIDIUM, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item IRIDIUM_BOOTS = registerItem("iridium_boots",
+            new ModArmorItem(ModArmorMaterials.IRIDIUM, ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
+    public static final Item IRIDIUM_HORSE_ARMOR = registerItem("iridium_horse_armor",
+            new HorseArmorItem(18, "iridium", new FabricItemSettings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {

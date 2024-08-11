@@ -17,5 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.KRYPTONITE_HELMET, ModItems.KRYPTONITE_CHESTPLATE, ModItems.KRYPTONITE_LEGGINGS, ModItems.KRYPTONITE_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.IRIDIUM_HELMET, ModItems.IRIDIUM_CHESTPLATE, ModItems.IRIDIUM_LEGGINGS, ModItems.IRIDIUM_BOOTS);
     }
 }
