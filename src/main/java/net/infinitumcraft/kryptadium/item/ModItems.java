@@ -54,7 +54,7 @@ public class ModItems {
     public static final Item KRYPTONITE_HOE = registerItem("kryptonite_hoe",
             new HoeItem(ModToolMaterial.KRYPTONITE,-8, 4f,new FabricItemSettings()));
     public static final Item KRYPTONITE_HAMMER = registerItem("kryptonite_hammer",
-            new PaxelItem(ModToolMaterial.KRYPTONITE,0, -4f,new FabricItemSettings()));
+            new PaxelItem(ModToolMaterial.KRYPTONITE,0, -1f,new FabricItemSettings()));
 
     public static final Item KRYPTONITE_HELMET = registerItem("kryptonite_helmet",
             new ModArmorItem(ModArmorMaterials.KRYPTONITE, ArmorItem.Type.HELMET,new FabricItemSettings()));
@@ -93,7 +93,7 @@ public class ModItems {
     public static final Item IRIDIUM_HOE = registerItem("iridium_hoe",
             new HoeItem(ModToolMaterial.IRIDIUM,-8, 4f,new FabricItemSettings()));
     public static final Item IRIDIUM_HAMMER = registerItem("iridium_hammer",
-            new PaxelItem(ModToolMaterial.IRIDIUM,0, -4f,new FabricItemSettings()));
+            new PaxelItem(ModToolMaterial.IRIDIUM,0, -1f,new FabricItemSettings()));
 
     public static final Item IRIDIUM_HELMET = registerItem("iridium_helmet",
             new ModArmorItem(ModArmorMaterials.IRIDIUM, ArmorItem.Type.HELMET,new FabricItemSettings()));
