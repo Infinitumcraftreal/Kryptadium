@@ -1,0 +1,55 @@
+{
+  "parent": "kryptadium:getairidium",
+  "criteria": {
+    "has_full_Iridium_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:iridium_helmet"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:iridium_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:iridium_leggings"
+            ]
+          },
+          {
+            "items": [
+              "kryptadium:iridium_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "kryptadium:textures/block/iridium_ore.png",
+    "description": {
+      "text": "Get A Full Set Of Iridium Armor"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kryptadium:iridium_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Full Iridium Armor"
+    }
+  },
+  "requirements": [
+    [
+      "has_full_Iridium_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "kryptadium:iridium"
+    }
+  },
+  "pattern": [
+    " SS",
+    " P ",
+    " P "
+  ],
+  "result": {
+    "item": "kryptadium:iridium_hoe"
+  },
+  "show_notification": true
+}

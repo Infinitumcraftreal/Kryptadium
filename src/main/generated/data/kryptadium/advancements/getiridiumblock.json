@@ -1,0 +1,39 @@
+{
+  "parent": "kryptadium:getairidium",
+  "criteria": {
+    "has_iridium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:iridium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "kryptadium:textures/block/iridium_ore.png",
+    "description": {
+      "text": "You Got A Iridium Block!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kryptadium:iridium_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Craft A Iridium Block"
+    }
+  },
+  "requirements": [
+    [
+      "has_iridium_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

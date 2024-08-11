@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:dark_oak_wood"
+    },
+    "S": {
+      "item": "kryptadium:iridium"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "item": "kryptadium:iridium_shield"
+  },
+  "show_notification": true
+}
