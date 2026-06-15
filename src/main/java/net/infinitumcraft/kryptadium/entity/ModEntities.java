@@ -1,13 +1,11 @@
 package net.infinitumcraft.kryptadium.entity;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.infinitumcraft.kryptadium.KryptadiumMod;
-import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.infinitumcraft.kryptadium.entity.custom.DiceProjectileEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
-import net.minecraft.block.entity.BlockEntityType;
+import net.infinitumcraft.kryptadium.entity.custom.KryptoniteTntEntity; // Ensure this import matches where you create the TNT class!
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -31,6 +29,16 @@ public class ModEntities {
             Registries.ENTITY_TYPE, new Identifier(KryptadiumMod.MOD_ID, "kryptaxo"),
             FabricEntityTypeBuilder.create(SpawnGroup.AXOLOTLS, KryptaxoEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 0.5f)).build());
+
+    // --- YOUR NEW KRYPTONITE TNT ENTITY REGISTRATION ---
+    public static final EntityType<KryptoniteTntEntity> KRYPTONITE_TNT_ENTITY = Registry.register(
+            Registries.ENTITY_TYPE, new Identifier(KryptadiumMod.MOD_ID, "kryptonite_tnt"),
+            FabricEntityTypeBuilder.<KryptoniteTntEntity>create(SpawnGroup.MISC, KryptoniteTntEntity::new)
+                    .fireImmune() // TNT shouldn't burn up inside fire or lava before exploding
+                    .dimensions(EntityDimensions.fixed(0.98f, 0.98f)) // Matches normal vanilla blocks
+                    .trackRangeBlocks(10) // Tells server how far away players can see it bouncing/flashing
+                    .trackedUpdateRate(10)
+                    .build());
 
 
     public static void registerModEntities() {

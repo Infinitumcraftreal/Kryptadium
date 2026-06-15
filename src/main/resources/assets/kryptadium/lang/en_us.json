@@ -43,7 +43,7 @@
   "sounds.kryptadium.radar_onuse": "Radar Used",
 
 
-  "item.kryptadium.iridium": "Kryptonite",
+  "item.kryptadium.iridium": "Iridium",
   "block.kryptadium.iridium_block": "Iridium Block",
   "block.kryptadium.iridium_ore": "Iridium Ore",
 
@@ -62,5 +62,7 @@
   "item.kryptadium.iridium_bow": "Iridium Bow",
   "item.kryptadium.iridium_shield": "Iridium Shield",
   "item.kryptadium.iridium_hammer": "Iridium Hammer",
-  "item.kryptadium.iridium_nuggets": "Iridium Nuggets"
+  "item.kryptadium.iridium_nuggets": "Iridium Nuggets",
+  "entity.kryptadium.kryptonite_boss": "Kryptonite Boss",
+  "entity.kryptadium.kryptaxo": "Kryptaxo"
 }

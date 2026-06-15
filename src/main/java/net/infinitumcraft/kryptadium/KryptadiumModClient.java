@@ -6,10 +6,12 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
 import net.infinitumcraft.kryptadium.entity.client.KryptaxoRenderer;
 import net.infinitumcraft.kryptadium.entity.client.KryptoniteBossRenderer;
+import net.infinitumcraft.kryptadium.entity.client.KryptoniteTntEntityRenderer;
 import net.infinitumcraft.kryptadium.particle.KryptoniteParticle;
 import net.infinitumcraft.kryptadium.particle.ModParticles;
 import net.infinitumcraft.kryptadium.util.ModModelPredicateProvider;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
+import net.minecraft.client.render.entity.TntEntityRenderer;
 
 public class KryptadiumModClient implements ClientModInitializer {
     @Override
@@ -22,5 +24,7 @@ public class KryptadiumModClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.KRYPTONITE_DYNAMITE, FlyingItemEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.KPYPTONTITE_BOSS, KryptoniteBossRenderer::new);
         EntityRendererRegistry.register(ModEntities.KRYPTAXO, KryptaxoRenderer::new);
+
+        EntityRendererRegistry.register(ModEntities.KRYPTONITE_TNT_ENTITY, KryptoniteTntEntityRenderer::new);
     }
 }

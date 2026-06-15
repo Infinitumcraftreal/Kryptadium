@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.infinitumcraft.kryptadium.block.ModBlocks;
 import net.infinitumcraft.kryptadium.enchantment.ModEnchantments;
+import net.infinitumcraft.kryptadium.entity.ModBlockEntities;
 import net.infinitumcraft.kryptadium.entity.ModEntities;
 import net.infinitumcraft.kryptadium.entity.custom.KryptaxoEntity;
 import net.infinitumcraft.kryptadium.entity.custom.KryptoniteBossEntity;
@@ -28,6 +29,7 @@ public class KryptadiumMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 
 		ModRegistries.registerModStuffs();
 		ModEnchantments.registerModEnchantments();
